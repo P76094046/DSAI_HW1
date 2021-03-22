@@ -18,11 +18,11 @@
 - 觀察**備轉容量**與**民生用電**、**工業用電**的關係
 - 觀察**備轉容量**與**台電燃煤**、**核能**、**燃氣**的關係
 
-![image](https://github.com/P76094046/DSAI_HW1/blob/main/1.png)
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/1.png)
 可以發現備轉容量隨著時間的變化起伏很大
 
-<img src="./1.png" style="zoom:50%" />
-<img src="./2.png" style="zoom:50%" />
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/2.png)
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/3.png)
 上圖為工業用電，下圖為民生用電。可以發現兩者相比的話， 工業用電相對穩定。
 
 <img src="./3.png" style="zoom:70%" />
