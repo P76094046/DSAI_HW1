@@ -42,11 +42,13 @@
 ![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/AR.png)
 
 使用 AR 預測的話，Test RMSE為93.920。
+
 ![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/ARIMA.png)
 
 使用 ARIMA 預測的話，Test RMSE為79.250。
 
 ARIMA 的效果較好，所以使用 ARIMA 做為預測備轉容量的模型。
+
 ![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/forecast.png)
 
 預測出的結果如上。
