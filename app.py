@@ -190,7 +190,7 @@ if __name__ == '__main__':
     with open('submission.csv', 'w', newline='') as csvfile:
     
         writer = csv.writer(csvfile)
-        writer.writerow(['date', 'operating_reserve'])
+        writer.writerow(['date', 'operating_reserve(MW)'])
         for i in range(len(predictions)):
             writer.writerow(['2021032%s'%(i+3), predictions[i]])
     
