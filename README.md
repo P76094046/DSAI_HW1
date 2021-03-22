@@ -22,12 +22,12 @@
 
 可以發現備轉容量隨著時間的變化起伏很大
 
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/1.png)
 ![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/2.png)
-![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/3.png)
 
 上圖為工業用電，下圖為民生用電。可以發現兩者相比的話， 工業用電相對穩定。
 
-<img src="./3.png" style="zoom:70%" />
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/3.png)
 從此圖可以看出民生用電和備轉容量呈正相關。若是將其他圖畫出來，則會發現沒有那麼明顯的趨勢。所以模型不考慮這些columns，決定單純的使用過去的備轉容量來預測未來的備轉容量。  
 
 於是我將 **2020/01/01 - 2021/01/31** 還有 **2021/02/01 - 2021/03/22**的資料合併，並且只取日期和備轉容量，做為我的訓練資料。 
