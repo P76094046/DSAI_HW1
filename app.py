@@ -6,7 +6,7 @@ Created on Tue Mar 16 14:17:52 2021
 """
 
 # C:\Users\algo\Documents\Python Scripts\AI_HW1.py
-#%%
+
 # You can write code above the if-main block.
 def evaluate_arima_model(X, arima_order):
 	# prepare training dataset
@@ -138,7 +138,7 @@ if __name__ == '__main__':
     p_values = [0, 1, 2, 4, 6, 8, 10]
     d_values = range(0, 3)
     q_values = range(0, 3)
-    # evaluate_models(data, p_values, d_values, q_values)
+    # evaluate_models(data, p_values, d_values, q_values)     # Grid Search
     
     size = len(data) - 7
     # size = len(data) - 14
