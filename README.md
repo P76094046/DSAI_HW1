@@ -18,7 +18,7 @@
 - 觀察**備轉容量**與**民生用電**、**工業用電**的關係
 - 觀察**備轉容量**與**台電燃煤**、**核能**、**燃氣**的關係
 
-![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/1.png)
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/2019.png)
 
 可以發現備轉容量隨著時間的變化起伏很大
 
@@ -31,21 +31,20 @@
 從此圖可以看出民生用電和備轉容量呈正相關。若是將其他圖畫出來，則會發現沒有那麼明顯的趨勢。所以模型不考慮這些columns，決定單純的使用過去的備轉容量來預測未來的備轉容量。  
 
 於是我將 **2020/01/01 - 2021/01/31** 還有 **2021/02/01 - 2021/03/22**的資料合併，並且只取日期和備轉容量，做為我的訓練資料。 
-<img src="./2020.png" style="zoom:70%" />
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/2020.png)
 
 ### Model
 
 - 使用基礎的 AR 和 ARIMA 模型
 - 使用 Grid Search 找到最佳的模型
 
-<img src="./AR.png" style="zoom:70%" />
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/AR.png)
 使用 AR 預測的話，Test RMSE為93.920。
-<img src="./ARIMA.png" style="zoom:70%" />
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/ARIMA.png)
 使用 ARIMA 預測的話，Test RMSE為79.250。
 
 ARIMA 的效果較好，所以使用 ARIMA 做為預測備轉容量的模型。
-
-<img src="./forecast.png" style="zoom:70%" />
+![image](https://github.com/P76094046/DSAI_HW1/blob/main/image/forecast.png)
 預測出的結果如上。
 
 
