@@ -91,14 +91,14 @@ if __name__ == '__main__':
     data = data['備轉容量(MW)']
     print(data)
     
-    lag_plot(data)
-    plt.show()
+    # lag_plot(data)
+    # plt.show()
 
-    autocorrelation_plot(data)
-    plt.show()
+    # autocorrelation_plot(data)
+    # plt.show()
 
-    plot_acf(data , lags=31)
-    plt.show()
+    # plot_acf(data , lags=31)
+    # plt.show()
 
     data = data.values
     index = len(data) - 7
