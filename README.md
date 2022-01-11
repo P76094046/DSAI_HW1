@@ -1,4 +1,4 @@
-# DSAI HW1
+# 台電電力預測Taipower Electricity Forecasting
 
 **重要**: 有新增 argument，請使用'python app.py --training 2021.csv --training2 2020to2021.csv --output submission.csv'執行。
 
